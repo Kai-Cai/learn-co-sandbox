@@ -1,3 +1,6 @@
+require_relative 'config/environment'
+
+
 require 'bundler'
 Bundler.require
 class MyApp < Sinatra::Base
